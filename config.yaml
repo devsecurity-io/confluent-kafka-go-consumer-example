@@ -1,0 +1,6 @@
+logLevel: "info"
+topic: "test-topic1"
+kafkaConfig:
+  bootstrap.servers: "localhost:9092"
+  group.id: "example_consumer_group_1"
+  auto.offset.reset: "earliest"
